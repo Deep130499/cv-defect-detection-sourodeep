@@ -1,1 +1,1 @@
-# cv-defect-detection-sourodeep
+# CV-Defect detection
