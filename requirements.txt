@@ -1,18 +1,11 @@
-# Core ML libraries
-torch==2.9.0
-torchvision==0.18.1
-grad-cam @ git+https://github.com/jacobgil/pytorch-grad-cam.git
-
-# Image processing & visualization
-pillow==12.0.0
+streamlit==1.51.0
+torch==2.3.0
+torchvision==0.14.1
+pillow==10.3.0
 numpy==1.26.4
 opencv-python-headless==4.9.0.80
 matplotlib==3.8.4
-
-# Data & utilities
-pandas==2.3.3
+pandas==2.2.2
 scikit-learn==1.4.2
 tqdm==4.66.4
-
-# Web app
-streamlit==1.51.0
+git+https://github.com/jacobgil/pytorch-grad-cam.git@781dbc0d16ffa95b6d18b96b7b829840a82d93d1#egg=grad-cam
