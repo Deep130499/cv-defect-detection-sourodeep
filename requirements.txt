@@ -1,7 +1,7 @@
 # Core ML libraries
-torch==2.3.0
-torchvision==0.18.0
-pytorch-grad-cam @ git+https://github.com/jacobgil/pytorch-grad-cam.git
+torch==2.9.0
+torchvision==0.18.1
+grad-cam @ git+https://github.com/jacobgil/pytorch-grad-cam.git
 
 # Image processing & visualization
 pillow==12.0.0
